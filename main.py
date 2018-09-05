@@ -52,7 +52,7 @@ parser.add_argument('--weight-decay', '--wd', default=1e-4, type=float, metavar=
 parser.add_argument('--bin-lr', default=10.0, type=float, metavar='M',
                     help='lr mutiplier for BIN gates')
 # Checkpoints
-parser.add_argument('-c', '--checkpoint', default='checkpoint', type=str, metavar='PATH',
+parser.add_argument('-c', '--checkpoint', default='checkpoints', type=str, metavar='PATH',
                     help='path to save checkpoint')
 parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint')
