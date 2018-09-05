@@ -32,4 +32,4 @@ python main.py --dataset cifar100 --depth 50 --checkpoint checkpoints/cifar100-r
 ```
 
 ## LICENSE
-This repository is released under the MIT License
+This repository is released under **the MIT License**
