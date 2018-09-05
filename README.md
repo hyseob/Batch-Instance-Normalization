@@ -10,7 +10,6 @@ If you use this code for your research, please cite:
 Hyeonseob Nam and Hyo-Eun Kim, *Batch-Instance Normalization for Adaptively Style-Invariant Neural Networks*, arXiv preprint, 2018.
 (To appear in NIPS 2018)
 [[paper]](https://arxiv.org/abs/1805.07925)
-[[Bibtex]](https://scholar.googleusercontent.com/scholar.bib?q=info:ZAm2b5OTbJQJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAW49edt8kZDTqhqemXCr1VfB0rEXSNbcr&scisf=4&ct=citation&cd=-1&hl=en)
 
 ## Prerequisites
 - [PyTorch 0.4.0](https://pytorch.org/)
