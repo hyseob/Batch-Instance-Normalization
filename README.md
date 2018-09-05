@@ -20,15 +20,15 @@ Hyeonseob Nam and Hyo-Eun Kim, *Batch-Instance Normalization for Adaptively Styl
 ## Training Examples
 Training ResNet-50 on CIFAR-100 using **Batch Normalization**
 ```
-python main.py --dataset cifar100 --depth 50 --checkpoint checkpoints/cifar100-resnet50-bn --norm bn
+python main.py --dataset cifar100 --depth 50 --norm bn --checkpoint checkpoints/cifar100-resnet50-bn
 ```
 Training ResNet-50 on CIFAR-100 using **Instance Normalization**
 ```
-python main.py --dataset cifar100 --depth 50 --checkpoint checkpoints/cifar100-resnet50-in --norm in
+python main.py --dataset cifar100 --depth 50 --norm in --checkpoint checkpoints/cifar100-resnet50-in
 ```
 Training ResNet-50 on CIFAR-100 using **Batch-Instance Normalization**
 ```
-python main.py --dataset cifar100 --depth 50 --checkpoint checkpoints/cifar100-resnet50-bin --norm bin
+python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints/cifar100-resnet50-bin
 ```
 
 ## LICENSE
