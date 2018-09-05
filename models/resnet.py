@@ -1,4 +1,5 @@
 import torch.nn as nn
+import functools
 import math
 
 def conv3x3(in_planes, out_planes, stride=1):
@@ -97,7 +98,7 @@ class ResNet(nn.Module):
             from torch.nn import InstanceNorm2d as Normlayer
         elif norm_type == 'bin':
             from .batchinstancenorm import BatchInstanceNorm2d as Normlayer
-        self.normlayer = Normlayer
+        self.normlayer = functools.partial(Normlayer, affine=True)
         
         self.inplanes = 16
         self.conv1 = nn.Conv2d(3, 16, kernel_size=3, padding=1,
@@ -114,7 +115,7 @@ class ResNet(nn.Module):
             if isinstance(m, nn.Conv2d):
                 n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
                 m.weight.data.normal_(0, math.sqrt(2. / n))
-            elif isinstance(m, self.normlayer):
+            elif isinstance(m, self.normlayer.func):
                 m.weight.data.fill_(1)
                 m.bias.data.zero_()
 
