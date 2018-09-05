@@ -17,7 +17,7 @@ Hyeonseob Nam and Hyo-Eun Kim, *Batch-Instance Normalization for Adaptively Styl
 - Python >= 3.5
 - Cuda >= 8.0
 
-## Training
+## Training Examples
 Training ResNet-50 on CIFAR-100 using **Batch Normalization**
 ```
 python main.py --dataset cifar100 --depth 50 --checkpoint checkpoints/cifar100-resnet50-bn --norm bn
