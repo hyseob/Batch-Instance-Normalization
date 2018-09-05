@@ -25,7 +25,7 @@ parser.add_argument('-j', '--workers', default=2, type=int, metavar='N',
                     help='number of data loading workers')
 # Architecture
 parser.add_argument('--depth', default=50, type=int, 
-                    help='Model depth')
+                    help='model depth')
 parser.add_argument('--norm', default='bn', type=str,
                     help='normalization type {bn, in, bin}')
 parser.add_argument('--basicblock', action='store_true', default=False,
