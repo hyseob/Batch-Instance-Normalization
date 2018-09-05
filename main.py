@@ -41,7 +41,7 @@ parser.add_argument('--test-batch', default=128, type=int, metavar='N',
                     help='test batchsize')
 parser.add_argument('--lr', '--learning-rate', default=0.1, type=float, metavar='LR', 
                     help='initial learning rate')
-parser.add_argument('--schedule', type=int, nargs='+', default=[81, 122],
+parser.add_argument('--schedule', type=int, nargs='+', default=[2, 122],
                     help='Decrease learning rate at these epochs.')
 parser.add_argument('--gamma', type=float, default=0.1, 
                     help='LR is multiplied by gamma on schedule.')
@@ -320,9 +320,8 @@ def save_checkpoint(state, is_best, checkpoint='checkpoint', filename='checkpoin
 def adjust_learning_rate(optimizer, epoch):
     global state
     if epoch in args.schedule:
-        state['lr'] *= args.gamma
         for param_group in optimizer.param_groups:
-            param_group['lr'] = state['lr']
+            param_group['lr'] *= args.gamma
 
 
 if __name__ == '__main__':
