@@ -57,4 +57,4 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 </p>
 
 ## Links
-- Tensorflow implementation by @taki0112: [code](https://github.com/taki0112/Batch_Instance_Normalization-Tensorflow)
+- Tensorflow implementation by [@taki0112[(https://github.com/taki0112): [code](https://github.com/taki0112/Batch_Instance_Normalization-Tensorflow)
