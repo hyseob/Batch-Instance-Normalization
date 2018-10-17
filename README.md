@@ -53,7 +53,7 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 
 ### Character recognition
 <p align="center">
-  <img src="figs/image_classification.png?raw=true" height="385"/>
+  <img src="figs/character_recognition.png?raw=true" height="385"/>
 </p>
 
 ## Links
