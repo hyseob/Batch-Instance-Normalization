@@ -43,17 +43,17 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 
 ### Classification on CIFAR-100 with different architectures
 <p align="center">
-  <img src="?raw=true"/>
+  <img src="figs/different_architectures.png?raw=true" height="215"/>
 </p>
 
 ### Mixed-domain classification on Office-Home (ResNet-18)
 <p align="center">
-  <img src="?raw=true"/>
+  <img src="figs/mixed_domain.png?raw=true" height="105"/>
 </p>
 
 ### Character recognition
 <p align="center">
-  <img src="?raw=true"/>
+  <img src="figs/image_classification.png?raw=true" height="385"/>
 </p>
 
 ## Links
