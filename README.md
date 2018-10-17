@@ -46,12 +46,12 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
   <img src="figs/different_architectures.png?raw=true" height="182"/>
 </p>
 
-3. Mixed-domain classification on Office-Home (ResNet-18)
+3. Mixed-domain classification on [Office-Home](http://hemanthdv.org/OfficeHome-Dataset/) (ResNet-18)
 <p align="center">
   <img src="figs/mixed_domain.png?raw=true" height="90"/>
 </p>
 
-4. Character recognition
+4. Character recognition on [ICDAR2003](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2003_Robust_Reading_Competitions), [ICDAR2005](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2005_Robust_Reading_Competitions), and [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
 <p align="center">
   <img src="figs/character_recognition.png?raw=true" height="330"/>
 </p>
