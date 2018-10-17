@@ -38,22 +38,22 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 ## Summary of Results
 1. Classification on CIFAR-10/100 (ResNet-110) and ImageNet (ResNet-18)
 <p align="center">
-  <img src="figs/image_classification.png?raw=true" height="90"/>
+  <img src="figs/image_classification.png?raw=true" height="75"/>
 </p>
 
 2. Classification on CIFAR-100 with different architectures
 <p align="center">
-  <img src="figs/different_architectures.png?raw=true" height="182"/>
+  <img src="figs/different_architectures.png?raw=true" height="152"/>
 </p>
 
 3. Mixed-domain classification on [Office-Home](http://hemanthdv.org/OfficeHome-Dataset/) (ResNet-18)
 <p align="center">
-  <img src="figs/mixed_domain.png?raw=true" height="90"/>
+  <img src="figs/mixed_domain.png?raw=true" height="75"/>
 </p>
 
 4. Character recognition on [ICDAR2003](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2003_Robust_Reading_Competitions), [ICDAR2005](http://www.iapr-tc11.org/mediawiki/index.php/ICDAR_2005_Robust_Reading_Competitions), and [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/)
 <p align="center">
-  <img src="figs/character_recognition.png?raw=true" height="330"/>
+  <img src="figs/character_recognition.png?raw=true" height="275"/>
 </p>
 
 ## Links
