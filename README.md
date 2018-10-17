@@ -38,7 +38,7 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 ## Summary of Results
 ### Classification on CIFAR-10/100 (ResNet-110) and ImageNet (ResNet-18)
 <p align="center">
-  <img src="?raw=true"/>
+  <img src="figs/image_classification.png?raw=true" height="105"/>
 </p>
 
 ### Classification on CIFAR-100 with different architectures
