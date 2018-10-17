@@ -38,22 +38,22 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 ## Summary of Results
 ### Classification on CIFAR-10/100 (ResNet-110) and ImageNet (ResNet-18)
 <p align="center">
-  <img src="figs/image_classification.png?raw=true" height="105"/>
+  <img src="figs/image_classification.png?raw=true" height="90"/>
 </p>
 
 ### Classification on CIFAR-100 with different architectures
 <p align="center">
-  <img src="figs/different_architectures.png?raw=true" height="215"/>
+  <img src="figs/different_architectures.png?raw=true" height="182"/>
 </p>
 
 ### Mixed-domain classification on Office-Home (ResNet-18)
 <p align="center">
-  <img src="figs/mixed_domain.png?raw=true" height="105"/>
+  <img src="figs/mixed_domain.png?raw=true" height="90"/>
 </p>
 
 ### Character recognition
 <p align="center">
-  <img src="figs/character_recognition.png?raw=true" height="385"/>
+  <img src="figs/character_recognition.png?raw=true" height="330"/>
 </p>
 
 ## Links
