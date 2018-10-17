@@ -34,5 +34,27 @@ Training ResNet-50 on CIFAR-100 using **Batch-Instance Normalization**
 python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints/cifar100-resnet50-bin
 ```
 
+
+## Summary of Results
+### Classification on CIFAR-10/100 (ResNet-110) and ImageNet (ResNet-18)
+<p align="center">
+  <img src="?raw=true"/>
+</p>
+
+### Classification on CIFAR-100 with different architectures
+<p align="center">
+  <img src="?raw=true"/>
+</p>
+
+### Mixed-domain classification on Office-Home (ResNet-18)
+<p align="center">
+  <img src="?raw=true"/>
+</p>
+
+### Character recognition
+<p align="center">
+  <img src="?raw=true"/>
+</p>
+
 ## Links
 - Tensorflow implementation by @taki0112: [code](https://github.com/taki0112/Batch_Instance_Normalization-Tensorflow)
