@@ -57,5 +57,5 @@ python main.py --dataset cifar100 --depth 50 --norm bin --checkpoint checkpoints
 </p>
 
 ## Links
-- [Lunit tech blog](https://blog.lunit.io/2018/05/25/batch-instance-normalization/)
+- [Lunit tech blog](https://blog.lunit.io/2018/05/25/batch-instance-normalization/) (Korean)
 - [Tensorflow implementation](https://github.com/taki0112/Batch_Instance_Normalization-Tensorflow) by [@taki0112](https://github.com/taki0112)
