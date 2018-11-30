@@ -1,6 +1,6 @@
 # Batch-Instance-Normalization
 
-This repository provides an example of using [Batch-Instance Normalization (to appear NIPS 2018)](https://arxiv.org/abs/1805.07925) for classification on CIFAR-10/100, written by [Hyeonseob Nam](https://www.linkedin.com/in/hyeonseob-nam/) and [Hyo-Eun Kim](https://www.linkedin.com/in/hekim0530/) at [Lunit Inc.](https://lunit.io/)
+This repository provides an example of using [Batch-Instance Normalization (NIPS 2018)](https://arxiv.org/abs/1805.07925) for classification on CIFAR-10/100, written by [Hyeonseob Nam](https://www.linkedin.com/in/hyeonseob-nam/) and [Hyo-Eun Kim](https://www.linkedin.com/in/hekim0530/) at [Lunit Inc.](https://lunit.io/)
 
 Acknowledgement: This code is based on [Wei Yang's pytorch-classification](https://github.com/bearpaw/pytorch-classification)
 
@@ -16,9 +16,9 @@ If you use this code for your research, please cite:
 ```
 
 ## Prerequisites
-- [PyTorch 0.4.0](https://pytorch.org/)
-- Python >= 3.5
-- Cuda >= 8.0
+- [PyTorch 0.4.0+](https://pytorch.org/)
+- Python 3.5+
+- Cuda 8.0+
 
 ## Training Examples
 Training ResNet-50 on CIFAR-100 using **Batch Normalization**
