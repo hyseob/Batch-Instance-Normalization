@@ -7,10 +7,10 @@ Acknowledgement: This code is based on [Wei Yang's pytorch-classification](https
 ## Citation
 If you use this code for your research, please cite:
 ```
-@article{nam2018batch,
+@inproceedings{nam2018batch,
   title={Batch-Instance Normalization for Adaptively Style-Invariant Neural Networks},
   author={Nam, Hyeonseob and Kim, Hyo-Eun},
-  journal={arXiv preprint arXiv:1805.07925},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2018}
 }
 ```
